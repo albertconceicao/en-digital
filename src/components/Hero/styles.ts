@@ -6,7 +6,6 @@ background-size: cover;
 min-height: 792px;
 `;
 export const Content = styled.div`
-padding: 80px 111px 102px;
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -90,14 +89,9 @@ strong {
         align-items: center;
     }
     }
-@media (max-width: 1200px) {
-    padding: 80px 60px 102px;
-}
-@media (max-width: 992px) {
-    padding: 80px 40px 102px;
-}
+
 @media (max-width: 768px) {
-    padding: 72px 26px 59px 26px;
+    
 
     .sales-text {
         font-size: 22px !important;

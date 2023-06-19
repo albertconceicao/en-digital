@@ -3,6 +3,7 @@ import Head from 'next/head';
 import bonequinhoComBolsas from '../assets/cliente_w.png';
 import Logo from '../assets/logo.svg';
 import { Hero } from '../components/Hero';
+import { SubHero } from '../components/SubHero';
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
 
       <main>
         <Hero />
-        
+        <SubHero />
       </main>
     </div>
   );

@@ -6,7 +6,7 @@ import { Container, Content } from './styles';
 export function Hero() {
   return (
     <Container>
-      <Content>
+      <Content className='container'>
         <div className='course-title'>
           <img src="./helmet.svg" alt="" />
           

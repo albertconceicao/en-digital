@@ -4,6 +4,8 @@ import bonequinhoComBolsas from '../assets/cliente_w.png';
 import Logo from '../assets/logo.svg';
 import { Hero } from '../components/Hero';
 import { SubHero } from '../components/SubHero';
+import { Potential } from '../components/Potential';
+import { Methodology } from '../components/Methodology';
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <main>
         <Hero />
         <SubHero />
+        <Potential />
+        <Methodology />
       </main>
     </div>
   );

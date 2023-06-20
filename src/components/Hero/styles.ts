@@ -65,24 +65,7 @@ strong {
     
 }
 
-.standard {
-    max-width: 374px;
-    min-height: 70px;
-    background: #00B4E5;
-    border: 1px solid #00B4E5;
-    border-radius: 7px;
-    padding: 10px 88px;
-    text-align: center;
-    font-size: 20px;
-    color: #fff;
-    font-weight: 700;
-    line-height: 30px;
 
-    @media (max-width: 1264px) {
-        margin: 0 auto;
-        max-width: 100%;
-    }
-}
 @media (max-width: 1264px) {
     section {
         flex-direction: column;

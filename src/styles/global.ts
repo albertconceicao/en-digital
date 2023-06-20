@@ -6,11 +6,13 @@ export default createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+  
+  
 
   body {
     background: ${props => props.theme.colors.background};
     color: ${props => props.theme.colors.text};
-    font: 400 16px Inter, sans-serif;
+    font: 400 16px Poppins, sans-serif;
   }
   .container {
     padding: 80px 111px 102px;
@@ -25,4 +27,22 @@ export default createGlobalStyle`
         padding: 72px 26px 59px 26px;
     }
   }
+  .standard {
+    max-width: 374px;
+    min-height: 70px;
+    background: #00B4E5;
+    border: 1px solid #00B4E5;
+    border-radius: 7px;
+    padding: 10px 88px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 30px;
+
+    @media (max-width: 1264px) {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
 `;

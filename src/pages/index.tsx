@@ -6,6 +6,7 @@ import { Hero } from '../components/Hero';
 import { SubHero } from '../components/SubHero';
 import { Potential } from '../components/Potential';
 import { Methodology } from '../components/Methodology';
+import { FindCourse } from '../components/FindCourse';
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <SubHero />
         <Potential />
         <Methodology />
+        <FindCourse />
       </main>
     </div>
   );

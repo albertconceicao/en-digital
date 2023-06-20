@@ -18,7 +18,7 @@ strong {
     display: flex;
     align-items: center;
     gap: 20px;
-    max-width: 508px;
+    max-width: 515px;
     margin-bottom: 59px;
     
     span {

@@ -7,6 +7,7 @@ import { FindCourse } from '../components/FindCourse';
 import { Market } from '../components/Market';
 import { CourseModules } from '../components/CourseModules';
 import { JobPosting } from '../components/JobPosting';
+import { Depoiments } from '../components/Depoiments';
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <Market />
         <JobPosting />
         <CourseModules />
+        <Depoiments />
       </main>
     </div>
   );

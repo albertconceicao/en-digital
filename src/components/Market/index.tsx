@@ -1,5 +1,3 @@
-import { ReactNode } from 'react';
-
 import { Container, Content } from './Market.styles';
 import { List } from './List';
 

@@ -6,6 +6,7 @@ import { Methodology } from '../components/Methodology';
 import { FindCourse } from '../components/FindCourse';
 import { Market } from '../components/Market';
 import { CourseModules } from '../components/CourseModules';
+import { JobPosting } from '../components/JobPosting';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
         <Methodology />
         <FindCourse />
         <Market />
+        <JobPosting />
         <CourseModules />
       </main>
     </div>

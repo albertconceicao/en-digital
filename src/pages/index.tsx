@@ -5,6 +5,7 @@ import { Potential } from '../components/Potential';
 import { Methodology } from '../components/Methodology';
 import { FindCourse } from '../components/FindCourse';
 import { Market } from '../components/Market';
+import { CourseModules } from '../components/CourseModules';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Methodology />
         <FindCourse />
         <Market />
+        <CourseModules />
       </main>
     </div>
   );

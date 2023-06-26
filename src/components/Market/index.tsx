@@ -15,7 +15,6 @@ export function Market() {
             </div>
             <List />
           </div>
-          <img src="./stressed-man.svg" alt="" />
         </section>
       </Content>
     </Container>

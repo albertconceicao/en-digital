@@ -1,12 +1,23 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-background: linear-gradient(270.51deg, #151515 50.44%, #16738D 727.94%);
+background: url('./market.svg') no-repeat right bottom;
 min-height: 597px;
+background-size: cover;
+
+
+@media (max-width: 768px) {
+    max-width: 100%;
+    background: url('./mb-market-2.svg') no-repeat right bottom;
+    background-size: cover;
+    min-height: 790px;
+}
 `;
 export const Content = styled.div`
 section {
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     > img {
         margin-left: auto;
         max-width: 531px;
@@ -30,7 +41,7 @@ section {
     @media (max-width: 1200px) {
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         gap: 60px;
         > img {
         margin-left: 0;
@@ -55,7 +66,15 @@ section {
         }
     }
     
+    @media (max-width: 992px) {
+    max-width: 50%;
+    margin-right: auto;
+    }
+    @media (max-width: 768px) {
+        max-width: 100%;
+    }
 }
+
 `;
 
 export const BenefitsList = styled.ul`

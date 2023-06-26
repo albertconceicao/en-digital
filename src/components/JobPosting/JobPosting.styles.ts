@@ -41,6 +41,7 @@ export const Content = styled.section`
       }
       @media (max-width: 768px) {
         font-size: 16px;
+        padding: 10px 19px;
       }
     }
   }

@@ -7,7 +7,9 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   
-  
+  html {
+    scroll-behavior: smooth;
+  }
 
   body {
     background: ${props => props.theme.colors.background};
@@ -39,7 +41,7 @@ export default createGlobalStyle`
     color: #fff;
     font-weight: 700;
     line-height: 30px;
-
+    text-decoration: none;
     @media (max-width: 1264px) {
         margin: 0 auto;
         max-width: 100%;

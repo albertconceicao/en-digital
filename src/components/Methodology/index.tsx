@@ -20,12 +20,22 @@ export function Methodology() {
             </p>
           </div>
 
-          <button type="button" className="standard button-web">
+          <a
+            href="https://pay.hotmart.com/T81245432Y?sck=HOTMART_PRODUCT_PAGE&hotfeature=32&_gl=1%2a122pa0x%2a_ga%2aMjQ0OTc4NzQ5LjE2NzM5NjMyMjQ.%2a_ga_GQH2V1F11Q%2aMTY4Nzc4OTY2Mi43OS4xLjE2ODc3ODk3NTguNTkuMC4w&bid=1687789763943"
+            target="_blank"
+            rel="noreferrer"
+            className="standard button-web"
+          >
             Quero acelerar meus resultados!
-          </button>
-          <button type="button" className="standard button-mobile">
+          </a>
+          <a
+            href="https://pay.hotmart.com/T81245432Y?sck=HOTMART_PRODUCT_PAGE&hotfeature=32&_gl=1%2a122pa0x%2a_ga%2aMjQ0OTc4NzQ5LjE2NzM5NjMyMjQ.%2a_ga_GQH2V1F11Q%2aMTY4Nzc4OTY2Mi43OS4xLjE2ODc3ODk3NTguNTkuMC4w&bid=1687789763943"
+            target="_blank"
+            rel="noreferrer"
+            className="standard button-mobile"
+          >
             Quero acelerar resultados!
-          </button>
+          </a>
         </section>
       </Content>
     </Container>

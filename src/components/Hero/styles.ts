@@ -9,7 +9,9 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
+  a {
+    padding: 10px 61px;
+  }
   strong {
     color: #01b4e5;
   }

@@ -35,7 +35,7 @@ export const Content = styled.section`
     flex-direction: column;
     gap: 30px;
     a {
-      padding: 20px 19px;
+      padding: 10px 19px;
       strong {
         color: #fff;
       }

@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   max-width: 798px;
   .standard {
-    padding: 20px 26px;
+    padding: 10px 26px;
   }
   .button-mobile {
     display: none;

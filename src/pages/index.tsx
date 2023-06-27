@@ -11,6 +11,7 @@ import { Depoiments } from '../components/Depoiments';
 import { Payment } from '../components/Payment';
 import { Warranty } from '../components/Warranty';
 import { Teachers } from '../components/Teachers';
+import { Faq } from '../components/FAQ';
 
 export default function Home() {
   return (
@@ -37,6 +38,7 @@ export default function Home() {
         <Payment />
         <Warranty />
         <Teachers />
+        <Faq />
       </main>
     </div>
   );

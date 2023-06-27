@@ -28,7 +28,16 @@ export const Content = styled.div`
       @media (max-width: 410px) {
         font-size: 13px;
       }
+      ul {
+        padding: 0 18px;
+      }
+      a {
+        text-decoration: none;
+        font-weight: bolder;
+        color: #041418;
+      }
     }
+
     > p {
       display: flex;
       justify-content: space-between;

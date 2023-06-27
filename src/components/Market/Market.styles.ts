@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: url('./market.png') no-repeat right bottom;
+  background: url('./market.webp') no-repeat right bottom;
   min-height: 597px;
   background-size: cover;
 

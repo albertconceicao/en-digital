@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: url('./methodology.png') no-repeat center;
+  background: url('./methodology.webp') no-repeat center;
   min-height: 639px;
   background-size: cover;
 

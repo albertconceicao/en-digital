@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: url('./bg-potential2.png') no-repeat left center, #151515;
+  background: url('./bg-potential2.webp') no-repeat left center, #151515;
   background-size: cover;
   min-height: 564px;
   margin-left: -214px;
@@ -11,7 +11,7 @@ export const Container = styled.div`
     background: url('./bg-potential-tablet.png') no-repeat center, #151515;
   }
   @media (max-width: 768px) {
-    background: url('./bg-potential-mb3.png') no-repeat left center, #151515;
+    background: url('./bg-potential-mb3.webp') no-repeat left center, #151515;
     margin-left: 0;
     background-size: cover;
   }

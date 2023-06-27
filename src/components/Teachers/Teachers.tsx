@@ -20,10 +20,10 @@ export function Teachers() {
                 planejadores e profissionais de diversos setores.
               </p>
             </div>
-            <img src="./edgar.png" alt="" />
+            <img src="./edgar.webp" alt="" />
           </div>
           <div>
-            <img src="./lenisson.png" alt="" />
+            <img src="./lenisson.webp" alt="" />
             <div>
               <strong>Lenisson Xavier</strong>
               <p>

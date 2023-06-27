@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: url('./heroImage.png') no-repeat center;
+  background: url('./heroImage.webp') no-repeat center;
   background-size: cover;
   min-height: 792px;
 `;

@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: url('./market.svg') no-repeat right bottom;
+  background: url('./market.png') no-repeat right bottom;
   min-height: 597px;
   background-size: cover;
 
   @media (max-width: 768px) {
     max-width: 100%;
-    background: url('./mb-market-2.svg') no-repeat right bottom;
+    background: url('./mb-market-2.png') no-repeat right bottom;
     background-size: cover;
     min-height: 790px;
   }

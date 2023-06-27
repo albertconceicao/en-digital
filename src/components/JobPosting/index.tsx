@@ -5,7 +5,7 @@ export function JobPosting() {
     <Container>
       <Content className="container">
         <div>
-          <img src="./job-posting.svg" alt="" />
+          <img src="./job-posting.png" alt="" />
 
           <div className="content-box">
             <p>

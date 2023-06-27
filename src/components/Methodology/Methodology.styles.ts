@@ -1,19 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background: url('./methodology.svg') no-repeat center;
+  background: url('./methodology.png') no-repeat center;
   min-height: 639px;
   background-size: cover;
 
   @media (max-width: 768px) {
-    background: url('./methodology-mb.svg') no-repeat center;
+    background: url('./methodology-mb.png') no-repeat center;
     background-size: cover;
   }
 `;
 export const Content = styled.div`
   max-width: 798px;
   .standard {
-    padding: 10px 26px;
+    padding: 20px 26px;
   }
   .button-mobile {
     display: none;

@@ -9,6 +9,7 @@ import { CourseModules } from '../components/CourseModules';
 import { JobPosting } from '../components/JobPosting';
 import { Depoiments } from '../components/Depoiments';
 import { Payment } from '../components/Payment';
+import { Warranty } from '../components/Warranty';
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
         <CourseModules />
         <Depoiments />
         <Payment />
+        <Warranty />
       </main>
     </div>
   );

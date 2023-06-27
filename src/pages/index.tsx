@@ -12,6 +12,7 @@ import { Payment } from '../components/Payment';
 import { Warranty } from '../components/Warranty';
 import { Teachers } from '../components/Teachers';
 import { Faq } from '../components/FAQ';
+import { Footer } from '../components/Footer';
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
         <Warranty />
         <Teachers />
         <Faq />
+        <Footer />
       </main>
     </div>
   );

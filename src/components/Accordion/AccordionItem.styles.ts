@@ -18,7 +18,8 @@ export const Content = styled.div`
     cursor: pointer;
     border-radius: 7px;
     transition: height 5.5s ease-in-out;
-    p {
+    p,
+    ul {
       color: #fff;
       font-size: 17px;
       line-height: 35px;
@@ -28,14 +29,14 @@ export const Content = styled.div`
       @media (max-width: 410px) {
         font-size: 13px;
       }
-      ul {
-        padding: 0 18px;
-      }
       a {
         text-decoration: none;
         font-weight: bolder;
         color: #041418;
       }
+    }
+    ul {
+      padding: 0 18px;
     }
 
     > p {

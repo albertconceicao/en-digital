@@ -48,7 +48,7 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
 
-          <link rel="ico" href="https://rocketseat.com.br/favicon.ico" />
+          <link rel="ico" href="/course-logo.svg" />
 
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

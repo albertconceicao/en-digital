@@ -42,47 +42,47 @@ export function Faq() {
           </p>
         </Accordion>
         <Accordion boldTitle="O curso aborda quais tópicos principais?">
-          <p>
-            <ul>
-              <li>O que é ser um profissional de Planejamento;</li>
-              <li>Como e onde atua um profissional de Planejamento;</li>
-              <li>
-                Quais os principais atributos que os empregadores buscam nos
-                profissionais de Planejamento;
-              </li>
-              <li>Introdução ao gerenciamento de projetos;</li>
-              <li>
-                Principais metodologias utilizadas no gerenciamento de projetos;
-              </li>
-              <li>Operacionalização de metodologias;</li>
-              <li>Principais técnicas utilizadas na operacionalização;</li>
-              <li>
-                Principais documentos utilizados durante as fases de um
-                empreendimento;
-              </li>
-              <li>
-                Aplicação de técnicas de liderança no planejamento de obras;
-              </li>
-              <li>
-                Utilização do MS-PROJECT no planejamento e controle de obras;
-              </li>
-              <li>
-                Utilização do PRIMAVERA no planejamento e controle de obras.
-              </li>
-              <li>
-                Temos materiais adicionais como livros, apostilas, planilhas,
-                gráficos, vídeos de dicas. Entre outros inseridos no curso.
-              </li>
-            </ul>
-          </p>
+          <ul>
+            <li>O que é ser um profissional de Planejamento;</li>
+            <li>Como e onde atua um profissional de Planejamento;</li>
+            <li>
+              Quais os principais atributos que os empregadores buscam nos
+              profissionais de Planejamento;
+            </li>
+            <li>Introdução ao gerenciamento de projetos;</li>
+            <li>
+              Principais metodologias utilizadas no gerenciamento de projetos;
+            </li>
+            <li>Operacionalização de metodologias;</li>
+            <li>Principais técnicas utilizadas na operacionalização;</li>
+            <li>
+              Principais documentos utilizados durante as fases de um
+              empreendimento;
+            </li>
+            <li>
+              Aplicação de técnicas de liderança no planejamento de obras;
+            </li>
+            <li>
+              Utilização do MS-PROJECT no planejamento e controle de obras;
+            </li>
+            <li>
+              Utilização do PRIMAVERA no planejamento e controle de obras.
+            </li>
+            <li>
+              Temos materiais adicionais como livros, apostilas, planilhas,
+              gráficos, vídeos de dicas. Entre outros inseridos no curso.
+            </li>
+          </ul>
         </Accordion>
 
         <Accordion boldTitle="Quanto ganha o profissional de Planejamento?">
-          <p>
-            Como não é uma profissão com piso salarial definido. Mas uma
-            profissão essencial na construção, manutenção e indústria. Os
-            profissionais de planejamento estão categorizados nas seguintes
-            funções e salário aproximado (em salários mínimos):
+          <div>
+            <p>
+              Como não é uma profissão com piso salarial definido. Mas uma
+              profissão essencial na construção, manutenção e indústria. Os
+              profissionais de planejamento estão categorizados nas seguintes
+              funções e salário aproximado (em salários mínimos):
+            </p>
             <ul>
               <li>Auxiliar: 1,5 - 2,5</li>
               <li>Assistente: 2-5</li>
@@ -93,7 +93,7 @@ export function Faq() {
               <li>Coordenador: 10- em diante</li>
               <li>Gerente: 14- em diante</li>
             </ul>
-          </p>
+          </div>
         </Accordion>
 
         <Accordion boldTitle="Como posso me inscrever no curso?">

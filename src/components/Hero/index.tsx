@@ -31,7 +31,7 @@ export function Hero() {
             <iframe
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/2uU_WrANmxI"
+              src="https://www.youtube.com/embed/R_HCSdrRCtM"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

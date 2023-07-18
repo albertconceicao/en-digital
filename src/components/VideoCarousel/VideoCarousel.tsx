@@ -3,6 +3,13 @@ import { Carousel } from 'react-bootstrap';
 import { Container } from './VideoCarousel.styles';
 import 'bootstrap/dist/css/bootstrap.css';
 
+declare global {
+  interface Window {
+    onYouTubeIframeAPIReady?: () => void;
+    YT: any;
+  }
+}
+
 export function VideoCarousel() {
   useEffect(() => {
     // Carrega a API do YouTube Player
@@ -40,7 +47,10 @@ export function VideoCarousel() {
     const iframe = document.getElementById('youtube-video1');
 
     if (iframe) {
-      const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+      const iframeDoc =
+        iframe.ownerDocument ||
+        (iframe instanceof HTMLIFrameElement && iframe.contentWindow?.document);
+
       const style = document.createElement('style');
       style.innerHTML = '.ytp-chrome-controls { max-width: 480px !important; }';
       iframeDoc.head.appendChild(style);

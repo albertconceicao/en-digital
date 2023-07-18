@@ -29,6 +29,8 @@ module.exports = {
     'space-before-function-paren': 'off',
     'react/prop-types': 'off',
     'import/prefer-default-export': 'off',
-    'react/require-default-props': 'off'
+    'react/require-default-props': 'off',
+    'no-new': 'off',
+    '@typescript-eslint/no-use-before-define': 'off',
   }
 };

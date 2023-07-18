@@ -84,7 +84,7 @@ export const Content = styled.div`
       gap: 18px;
     }
     iframe {
-      max-width: 430px;
+      max-width: 480px;
     }
   }
   @media (max-width: 500px) {

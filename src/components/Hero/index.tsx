@@ -1,3 +1,4 @@
+import { VideoCarousel } from '../VideoCarousel';
 import { Container, Content } from './styles';
 
 export function Hero() {
@@ -28,7 +29,7 @@ export function Hero() {
             </p>
           </div>
           <div>
-            <iframe
+            {/* <iframe
               width="560"
               height="315"
               src="https://www.youtube.com/embed/R_HCSdrRCtM"
@@ -36,7 +37,8 @@ export function Hero() {
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
-            />
+            /> */}
+            <VideoCarousel />
           </div>
         </section>
         <a

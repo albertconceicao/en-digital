@@ -59,7 +59,7 @@ export const Container = styled.div`
 export const SubContainer = styled.div`
   background: linear-gradient(86deg, #16738d 3.26%, #0b3a47 100%);
   min-height: 557px;
-  max-height: 557px;
+  max-height: 574px;
 
   img {
     max-height: 74px;
@@ -85,6 +85,7 @@ export const Content = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: -60px;
   }
   > div {
     justify-content: space-between;
@@ -98,7 +99,11 @@ export const Content = styled.div`
     }
 
     .logo {
-      margin-bottom: 48px;
+      margin-bottom: 40px;
+      @media (min-width: 1100px) and (max-width: 1200px) {
+        max-height: 50px;
+        margin-bottom: 0;
+      }
       @media (max-width: 768px) {
         max-height: 50px;
       }

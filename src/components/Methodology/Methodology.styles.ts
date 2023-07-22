@@ -11,7 +11,9 @@ export const Container = styled.div`
   }
 `;
 export const Content = styled.div`
-  max-width: 798px;
+  section {
+    max-width: 798px;
+  }
   .standard {
     padding: 20px 26px;
   }

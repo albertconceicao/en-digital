@@ -9,5 +9,13 @@ export const Container = styled.div`
   @media (max-width: 768px) {
     font-size: 13px;
   }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 `;
 export const Content = styled.div``;
